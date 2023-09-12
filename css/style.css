@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #ACD1F2;
+    font-family: 'Indie Flower', cursive;
+}
+
+header {
+    background-image: url(../assets/img/panoramica.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    gap: 2.5rem;
+    padding-right: .9375rem;
+    height: 9.375rem
+}
+
+.logo_header {
+    display: flex;
+    width: 6.25rem;
+    height: 6.25rem;
+    overflow: hidden;
+}
+.logo_header img {
+    width: 100%;
+    padding: 10px .625rem;
+    
+}
+
+
+
+.botones_header {
+    display: flex;
+    flex-direction: row-reverse;
+    
+    
+}
+
+.navbar{
+    display: flex;
+    list-style: none;
+    flex-direction: row;
+    gap: 2.5rem;
+    justify-content: center;
+    font-size: 2.5rem;
+    }
+
+.navbar a {
+    text-decoration: none;
+    color: black;
+}
+
+        /********* main ********/
+
+.carretera_austral {
+    width: 100%;
+    height: 31.25rem;
+    background-position: center;
+    background-image: url(https://images.unsplash.com/photo-1557568685-c17a23a2ffb1?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1470&q=80);
+    text-align: center;    
+    font-size: 3.125rem;
+    align-content: center;
+
+}
+
+.cards {
+    width: 34.375rem;
+    height: 35.3125rem;
+    border: .0625rem solid black;
+    box-shadow: 2px 2px 10px gray;
+    margin: 1.875rem;
+    background-color: #BF9B7A;
+    border-radius: 1.25rem;
+    overflow: hidden;
+}
+.seccion_bloques {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.cards img {
+    width: 100%;
+    height: 60%;
+}
+
+        /**********footer********/
+
+footer {
+    background-color: #2A7ABF;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 3.75rem;
+    padding-right: 1.5rem;
+}
+
+.logo_footer {
+    display: flex;
+    width: 6.25rem;
+    height: 6.25rem;
+    overflow: hidden;
+}
+.logo_footer img {
+    width: 100%;
+    padding: 10px .625rem;
+}
